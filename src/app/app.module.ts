@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { MyComponent } from './my/my.component';
 import { ParentComponent } from './parent-child/parent/parent.component';
 import { ChildComponent } from './parent-child/child/child.component';
+import { DrawingComponent } from './drawing/drawing.component';
+import { DrawingToolComponent } from './drawing/drawing-tool/drawing-tool.component';
+import { DrawingAreaComponent } from './drawing/drawing-area/drawing-area.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    DrawingComponent,
+    DrawingToolComponent,
+    DrawingAreaComponent
   ],
   imports: [
     BrowserModule,

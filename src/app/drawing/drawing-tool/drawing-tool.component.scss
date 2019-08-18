@@ -1,0 +1,19 @@
+:host {
+  background-color: #e4e4e4;
+  flex: 0 0 auto;
+  border-right: 2px solid blue;
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  button {
+    height: 50px;
+    width: 200px;
+    margin: 2px 20px;
+    cursor: pointer;
+  }
+}

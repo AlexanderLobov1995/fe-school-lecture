@@ -1,0 +1,5 @@
+<h2> {{title}} </h2>
+<section>
+  <app-drawing-tool (selectColor)="handleSelectColor($event)"></app-drawing-tool>
+  <app-drawing-area [color]="selectedColor"></app-drawing-area>
+</section>
