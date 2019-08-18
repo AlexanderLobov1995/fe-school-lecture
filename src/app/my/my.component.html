@@ -1,0 +1,19 @@
+<h1> My Component </h1>
+<section>
+  <div *ngIf="isShowNumbers">
+    <p> Number list </p>
+    <div class="number-container">
+      <div *ngFor="let num of numbers" (click)="showNumber(num)" class="number"
+      >{{num}}</div>
+    </div>
+  </div>
+
+  <button (click)="showGreeting()"> show greeting </button>
+
+</section>
+<section >
+  <p> User info </p>
+  <div> Name: {{ user.name }} </div>
+  <div> Surname: {{ user.surname }} </div>
+  <div> Age: {{ user.age }} </div>
+</section>
