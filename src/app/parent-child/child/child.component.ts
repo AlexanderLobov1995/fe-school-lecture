@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./child.component.scss']
 })
 export class ChildComponent {
-  title = 'I am child component';
+  @Input() title = '';
 }
